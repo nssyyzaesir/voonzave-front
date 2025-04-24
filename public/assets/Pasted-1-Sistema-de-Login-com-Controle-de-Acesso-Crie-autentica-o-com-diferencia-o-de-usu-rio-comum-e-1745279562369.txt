@@ -1,0 +1,76 @@
+1. Sistema de Login com Controle de Acesso
+	•	Crie autenticação com diferenciação de usuário comum e administrador.
+	•	Apenas administradores terão acesso a recursos especiais da IA.
+	•	Proteja todas as rotas sensíveis, tokens e endpoints.
+
+2. Backend com API (Flask ou Node.js)
+	•	Crie endpoints para interação com a API da OpenAI (ChatGPT).
+	•	A chave da API deve ser protegida via variável de ambiente e nunca estar no código.
+	•	A API deve identificar o tipo de usuário e filtrar as permissões com base nisso.
+
+3. Frontend Moderno e Responsivo
+	•	Crie um botão de chat flutuante estilo WhatsApp.
+	•	Ao clicar, abre um chat estilo futurista com animações e efeito glassmorphism.
+	•	Use TailwindCSS ou similar pra um visual moderno, tecnológico e responsivo.
+
+4. Banco de Dados
+	•	Armazene interações da IA com usuário (mensagem, usuário, tipo, timestamp).
+	•	Admin pode ver o histórico de todos. Usuário comum vê só o dele.
+	•	Use SQLite, Firebase ou MongoDB.
+
+5. Segurança
+	•	Adicione .gitignore e configure o projeto para nunca commitar chaves de API.
+	•	Adicione proteção automática contra push de arquivos sensíveis.
+
+⸻
+
+6. Recursos Avançados e Exclusivos de IA (Nível GODMODE):
+
+IA com Personalidade Dinâmica
+	•	IA responde com diferentes tons (educada, sarcástica, técnica) dependendo do usuário.
+
+IA com Consciência de Sessão e Contexto
+	•	Analisa por onde o usuário navegou, o tempo, os botões clicados e responde com base no caminho que ele fez no site.
+
+IA Visual
+	•	Permita o upload de imagens para a IA analisar e responder.
+	•	Pode ser prints, fotos de produto, erro, etc.
+
+IA Falante e Avatar
+	•	Integre Web Speech API para entrada e saída por voz.
+	•	Use avatar 3D ou animado para responder com fala.
+
+Reconhecimento Emocional
+	•	Detecta o tom da mensagem do usuário (raiva, dúvida, ansiedade) e adapta a resposta da IA em tempo real.
+
+Acesso à APIs Externas
+	•	Permitir a IA buscar dados ao vivo: previsão do tempo, câmbio, notícias, etc.
+
+Gerador de Interface
+	•	A IA recebe um comando como “crie um botão azul com sombra” e retorna o código HTML/CSS imediatamente.
+
+Relatórios Automáticos
+	•	Gere relatórios semanais de performance do site, interações da IA e comportamento de usuário.
+	•	Relatório enviado por e-mail ou WhatsApp (via webhook).
+
+Integração com Webhooks / Zapier / WhatsApp / Discord
+	•	A IA pode responder por outros canais ou acionar ações externas com base no tipo de interação.
+
+Autoaprendizado Local
+	•	Implemente sistema local de vetorização (FAISS, ChromaDB) com conteúdo do site.
+	•	A IA responde com base nos dados reais do projeto.
+
+Painel Administrativo (Dashboard)
+	•	Admin vê gráficos, lista de perguntas, logs, histórico de usuários, mensagens mais frequentes, etc.
+
+⸻
+
+7. Automatização de Commit & Deploy
+	•	Sistema detecta arquivos sensíveis e impede commit automático se detectar chave.
+	•	Commit automático com proteção via .gitignore e git update-index --assume-unchanged.
+
+⸻
+
+Toda a estrutura deve estar funcionando no Replit. O resultado precisa ser um site de IA com recursos exclusivos, interativos, adaptativos e de última geração. A experiência do usuário deve parecer um sistema inteligente autônomo com múltiplas funcionalidades IA-driven.
+
+Me entregue esse sistema com uma arquitetura funcional e testável.
